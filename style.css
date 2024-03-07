@@ -51,30 +51,36 @@ header {
 /* .new-games-section {
     padding: 128px 240px;
 } */
-.new-games-section {
-    color: var(--clr-text);
-    background-color: var(--clr-background);
-    padding: 20px 10px;
-    text-align: center;
-
-}
-h2 {
-    font-size: var(--fs-semibig);
-    font-weight: var(--fw-semibold);
-    margin-bottom: var(--spacer);
-}
-p {
-    margin-bottom: var(--spacer);
-}
-.card-one {
-    background-image: url(images/Group\ 51.png);
-    /* width: 100vw;
-    height: 100vh; */
-
-}
-.card-content {
-    height: 400px;
-    width: 183px;
-    position: sticky;
-    margin: auto;
+@media screen and(max-width: 767px) {
+    .new-games-section {
+        color: var(--clr-text);
+        background-color: var(--clr-background);
+        /* padding: 20px 10px; */
+        text-align: center;
+    
+    }
+    h2 {
+        font-size: var(--fs-semibig);
+        font-weight: var(--fw-semibold);
+        margin-bottom: var(--spacer);
+    }
+    p {
+        margin-bottom: var(--spacer);
+    }
+    .card-one {
+        background-image: url(images/Group\ 51.png);
+        /* width: 100vw;
+        height: 100vh; */
+        /* height: 400px; */
+        width: 100vw;
+        display: block;
+        /* margin: auto; */
+    
+    }
+    .card-content {
+        height: 400px;
+        width: 183px;
+        position: sticky;
+        margin: auto;
+    }
 }
